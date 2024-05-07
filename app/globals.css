@@ -6,28 +6,106 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --color-white: #fffffa;
+  --color-grey: #5a6d7d;
+  --color-blue: #254f75;
+  --color-navy: #22445c;
+  --color-orange: #f8911b;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: rgb(var(--color-navy));
+  background: rgb(var(--color-white));
+}
+
+.card{
+  border: none;
+  box-shadow: none;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.card img{
+  border-radius: 13px;
+  width: 280px;
+  height: 260px;
+}
+
+.card .desc{
+  padding-top: 15px;
+  font-size: 14px;
+  color: var(--color-blue);
+  font-weight: 500;
+}
+
+.card .desc h2, .card .desc .price{
+  font-weight: 600;
+  color: var(--color-navy);
+}
+
+.card .desc p{
+  padding-top: ;
+}
+
+.card .desc p.p{
+  padding-top: ;
+  color: var(--color-grey);
+}
+
+.card .desc .price{
+  padding-top: 5px;
+  display: flex;
+  align-items: baseline;
+}
+
+.card .desc .price span{
+  margin-left: 5px;
+  font-weight: 500;
+  color: var(--color-blue);
+}
+
+.section-1{
+  display: flex;
+  justify-content: space-evenly;
+  
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+/*collage*/
+
+.collage{ 
+  display: grid;
+  grid-template-columns: 0.8fr 0.7fr 0.73fr 0.73fr;
+  grid-gap: 8px;
+  width: 68rem;
+  margin: 20px auto;
+  border-radius: 11px;
+  overflow: hidden;
+}
+
+.collage div{
+  height: 150px;
+}
+
+.collage div:first-child{
+  height: 310px;
+}
+
+.home-more{
+  width: 85%;
+  margin: 20px auto;
+}
+
+.home-more h1{
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--color-navy);
 }
