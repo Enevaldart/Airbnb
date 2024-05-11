@@ -25,6 +25,7 @@ body {
   box-shadow: none;
   overflow: hidden;
   margin: 10px;
+  margin-top: 20px;
 }
 
 .card img{
@@ -69,7 +70,7 @@ body {
 .section-1{
   display: flex;
   justify-content: space-evenly;
-  
+  flex-wrap: wrap;
 }
 
 @layer utilities {
@@ -87,6 +88,7 @@ body {
   grid-gap: 8px;
   width: 68rem;
   margin: 20px auto;
+  margin-bottom: 40px;
   border-radius: 11px;
   overflow: hidden;
 }
@@ -104,8 +106,387 @@ body {
   margin: 20px auto;
 }
 
-.home-more h1{
+.home-more hr{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-color: #b0b4b8a0;
+}
+
+.home-more h1, .home-more h2{
   font-size: 24px;
   font-weight: 400;
   color: var(--color-navy);
+}
+
+.home-more h2{
+  font-size: 20px;
+}
+
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  row-gap: 5px;
+}
+
+ul li{
+  list-style: circle;
+  padding: 0;
+  margin: 2px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.bed{
+  display: flex;
+  padding-left: -20px;
+  padding: 0;
+}
+
+.bed div{
+  padding: 25px;
+  margin-right: 10px;
+  border: 1px solid #a6b0b9d6;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  width: 200px;
+}
+
+.bed div span:nth-child(1){
+  font-size: 18px;
+}
+
+.bed div span:nth-child(2){
+  font-size: 16px;
+}
+
+h2.section-bed{
+  margin: 20px;
+  margin-left: 0;
+}
+
+.offers{
+
+}
+
+.offers ul{
+  display: grid;
+  grid-template-columns: 300px 300px;
+  padding-top: 10px;
+}
+
+.offers ul li{
+  padding: 0;
+  list-style: none;
+  line-height: 30px;
+}
+
+.offers button{
+  padding: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid var(--color-grey);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.rules{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: ;
+
+}
+
+.rules div{
+  line-height: 30px;
+}
+
+.rules h3{
+  font-size: 18px;
+  color: var(--color-navy);
+  font-weight: 500;
+  padding-top: 20px;
+}
+
+.rules a{
+  text-decoration: underline;
+  color: var(--color-navy);
+  padding-top: 40px;
+}
+
+.des{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.check{
+  padding: 20px;
+  padding-bottom: 0;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.check form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1px;
+  background-color: #b0b4b8a0;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.check p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-navy);
+}
+
+.check p span{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.check form label{
+  text-transform: uppercase;
+  font-size: 11px;
+  color: var(--color-orange);
+}
+
+.check input{
+  padding-right: 25px;
+}
+
+.check div{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background: var(--color-white);
+}
+
+.check span{
+  font-size: 12px;
+  padding: 5px;
+}
+
+.check button{
+  background: var(--color-orange);
+  color: var(--color-white);
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+footer{
+  padding: 20px;
+  background-color: #b0b4b845;
+}
+
+footer hr{
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-color: #b0b4b8a0;
+}
+
+footer span{
+  font-size: 15px;
+  margin-left: 6%;
+  margin-right: 10%;
+}
+
+footer .footer{
+  width: 95%;
+  margin: 10px auto;
+  font-size: 15px;
+}
+
+footer .footer h1{
+  font-size: 15px;
+  padding: 12px;
+  color: var(--color-navy);
+  font-weight: 600;
+}
+
+footer ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer ul li{
+  list-style: none;
+  width: 350px;
+}
+
+footer .ft{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-start;
+  font-size: 14px;
+  width: 93%;
+  margin: 0 auto;
+}
+
+.ft span{
+  font-size: 16px;
+  margin: 0;
+  padding-right: 12px;
+  display: flex;
+}
+
+.ft span p{
+  font-size: 14px;
+}
+
+.foot{
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.foot ul, .foot div{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.foot ul li{
+  list-style: none;
+}
+
+.foot ul.lk li{
+  list-style: disc;
+}
+
+
+/*navbar*/
+nav .tp{
+  width: 93%;
+  margin: 10px auto;
+  margin-top: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+nav div{
+  padding: 10px;
+}
+
+nav div a{
+  font-size: 15px;
+  color: var(--color-grey);
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  transition: all ease 150ms;
+}
+
+nav div a:hover{
+  background: #b0b4b827;
+}
+
+nav div a.active{
+  color: var(--color-navy);
+  background: none;
+}
+
+nav .avater a{
+   font-weight: 600;
+}
+
+nav hr{
+  margin-top: 40px;
+  border-width: 1px;
+  border-color: rgba(17, 17, 26, 0.1);
+}
+
+.search{
+  font-size: 13px;
+  width: 78%;
+  margin: 10px auto;
+  padding: 0;
+  border-radius: 35px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.search form{
+  padding: 4px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search form div{
+  padding: 10px;
+  padding-left: 30px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  transition: all ease 150ms;
+}
+
+.search form div:hover{
+  background: #b0b4b827;
+}
+
+.search form hr{
+  height: 30px;
+  width: 1px;
+  margin: 0;
+  margin-left: 4px;
+  margin-right: 4px;
+  border-color: rgba(17, 17, 26, 0.1);
+}
+
+.search form div input{
+  min-width: 150px;
+  background: transparent;
+}
+.search form div input[type="date"]{
+  max-width: 100px;
+}
+
+.search form div label{
+  font-weight: 600;
+  color: var(--color-navy);
+}
+
+.search form button{
+  font-weight: 600;
+  background: var(--color-orange);
+  font-size: 15px;
+  color: var(--color-white);
+  height: fit-content;
+  padding: 10px;
+  margin: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
 }
