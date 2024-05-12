@@ -16,6 +16,7 @@ export default function Home() {
         imageUrl="https://via.placeholder.com/300"
       />
       <Card
+        hrefLink="./grid/grid1"
         county="Kilifi, Kenya"
         region="Near Nyali Beach"
         specific="2 bedroom apartment"
@@ -23,6 +24,7 @@ export default function Home() {
         imageUrl="https://via.placeholder.com/300"
       />
       <Card
+        hrefLink="./carousel/carousel"
         county="Kilifi, Kenya"
         region="Near Nyali Beach"
         specific="2 bedroom apartment"

@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Payment(){
     return(
-        <div class="check">
+        <div className="check">
         <p>Ksh 3,500<span>night</span></p>
         <form action="" className="grid grid-cols2 grid-rows2">
           <div class="date" className="col-span-1 row-span-1">

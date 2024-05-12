@@ -1,6 +1,10 @@
+"use client";
+
 // components/Card.tsx
 import "../globals.css";
-import React from 'react';
+
+import React,  { useState } from 'react';
+import CustomCarousel from '@/app/ui/carousel';
 
 interface CardProps {
   title: string;

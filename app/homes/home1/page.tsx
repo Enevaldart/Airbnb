@@ -8,13 +8,17 @@ import React, { useState } from 'react';
 const IndexPage: React.FC = () => {
   // Example array of image URLs
   const images: string[] = [
-    'https://via.placeholder.com/300',
-    'https://via.placeholder.com/300',
-    'https://via.placeholder.com/300',
-    'https://via.placeholder.com/300',
-    'https://via.placeholder.com/300',
-    'https://via.placeholder.com/300',
-    'https://via.placeholder.com/300',
+    '/logo.jpg',
+    '/logo.jpg',
+    '/logo.jpg',
+    '/logo.jpg',
+    '/logo.jpg',
+    '/logo.jpg',
+    '/logo.jpg',
+    '/logo.jpg',
+    '/logo.jpg',
+    '/logo.jpg',
+    //'https://via.placeholder.com/300',
     // Add more image URLs as needed
   ];
 
@@ -47,4 +51,5 @@ const IndexPage: React.FC = () => {
     </div>
   );
 };
+
 export default IndexPage;
