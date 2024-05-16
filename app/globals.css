@@ -839,4 +839,8 @@ nav .menu-items li a{
 
 }
 
+input{
+  outline: none;
+}
+
 

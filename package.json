@@ -12,10 +12,12 @@
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "algoliasearch": "^4.23.3",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "react-icons": "^5.2.1"
+    "react-icons": "^5.2.1",
+    "react-instantsearch-dom": "^6.40.4"
   },
   "devDependencies": {
     "@types/node": "^20",
