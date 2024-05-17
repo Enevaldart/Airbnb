@@ -65,6 +65,50 @@ export default function Home() {
         price="ksh 3,500"
         imageUrl='/sample/IMG-20240504-WA0058.jpg'
       />
+      <Card
+        county="Kilifi, Kenya"
+        region="Near Nyali Beach"
+        specific="2 bedroom apartment"
+        price="ksh 3,500"
+        imageUrl='/sample/IMG-20240504-WA0056.jpg'
+      />
+      <Card
+        hrefLink="./carousel/carousel"
+        county="Kilifi, Kenya"
+        region="Near Nyali Beach"
+        specific="2 bedroom apartment"
+        price="ksh 3,500"
+        imageUrl='/sample/IMG-20240504-WA0057.jpg'
+      />
+      <Card
+        county="Kilifi, Kenya"
+        region="Near Nyali Beach"
+        specific="2 bedroom apartment"
+        price="ksh 3,500"
+        imageUrl='/sample/IMG-20240504-WA0058.jpg'
+      />
+      <Card
+        county="Kilifi, Kenya"
+        region="Near Nyali Beach"
+        specific="2 bedroom apartment"
+        price="ksh 3,500"
+        imageUrl='/sample/IMG-20240504-WA0056.jpg'
+      />
+      <Card
+        hrefLink="./carousel/carousel"
+        county="Kilifi, Kenya"
+        region="Near Nyali Beach"
+        specific="2 bedroom apartment"
+        price="ksh 3,500"
+        imageUrl='/sample/IMG-20240504-WA0057.jpg'
+      />
+      <Card
+        county="Kilifi, Kenya"
+        region="Near Nyali Beach"
+        specific="2 bedroom apartment"
+        price="ksh 3,500"
+        imageUrl='/sample/IMG-20240504-WA0058.jpg'
+      />
       </div>
     </main></>
   );

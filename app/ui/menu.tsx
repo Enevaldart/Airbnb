@@ -17,7 +17,7 @@ const MobileMenu = () => {
   return (
     <nav className="mobile-menu">
       <div className="menu-toggle" onClick={toggleMenu}>Menu</div>
-      <ul className={`menu-items ${isOpen ? '' : 'open'}`}>
+      <ul className={`menu-items ${isOpen ? 'open' : ''}`}>
         <li><a href="#" class="active">stays</a></li>
         <li><a href="#">Experiences</a></li>
         <li><a href="#">Online experiences</a></li>
