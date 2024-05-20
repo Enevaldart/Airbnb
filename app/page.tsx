@@ -14,7 +14,7 @@ export default function Home() {
         region="Diani 4 Br Villa"
         specific="4 bedroom apartment"
         price="ksh 4,500"
-        imageUrl='/DianiVilla/IMG-20240520-WA0020.jpg'
+        imageUrl='./DianiVilla/IMG-20240520-WA0020.jpg'
       />
         <Card
         rate="4.80"
@@ -23,7 +23,7 @@ export default function Home() {
         region="2 Br Palm Terraces"
         specific="2 bedroom apartment"
         price="ksh 2,500"
-        imageUrl='/PalmTerraces/IMG-20240520-WA0037.jpg'
+        imageUrl='./PalmTerraces/IMG-20240520-WA0037.jpg'
       />
       <Card
         rate="4.70"
@@ -32,7 +32,7 @@ export default function Home() {
         region="2 Br Beach Road"
         specific="2 bedroom apartment"
         price="ksh 3,000"
-        imageUrl='/BeachRoad/IMG-20240520-WA0046.jpg'
+        imageUrl='./BeachRoad/IMG-20240520-WA0046.jpg'
       />
       <Card
         rate="4.90"
@@ -41,7 +41,7 @@ export default function Home() {
         region="Studio Nyali Unit"
         specific="1 bedroom apartment"
         price="ksh 4,500"
-        imageUrl='/StudioUnitNyali/IMG-20240520-WA0034.jpg'
+        imageUrl='./StudioUnitNyali/IMG-20240520-WA0034.jpg'
       />
       <Card
         rate="4.78"
@@ -50,7 +50,7 @@ export default function Home() {
         region="Buxton Point"
         specific="1 bedroom apartment"
         price="ksh 3,000"
-        imageUrl='/sample/IMG-20240504-WA0051.jpg'
+        imageUrl='./sample/IMG-20240504-WA0051.jpg'
       />
       <Card
         rate="4.88"
@@ -59,7 +59,7 @@ export default function Home() {
         region="1 Br Shanzu"
         specific="1 bedroom apartment"
         price="ksh 2,300"
-        imageUrl='/Shanzu/IMG-20240504-WA0050.jpg'
+        imageUrl='./Shanzu/IMG-20240504-WA0050.jpg'
       />
       <Card
         rate="4.75"
@@ -68,7 +68,7 @@ export default function Home() {
         region="1 Br Malindi"
         specific="1 bedroom apartment"
         price="ksh 2,500"
-        imageUrl='/Malindi/IMG-20240504-WA0040.jpg'
+        imageUrl='./Malindi/IMG-20240504-WA0040.jpg'
       />
       <Card
         rate="4.65"
@@ -77,7 +77,7 @@ export default function Home() {
         region="1 Br  Nyali"
         specific="1 bedroom apartment"
         price="ksh 3,500"
-        imageUrl='/Nyali/IMG-20240504-WA0029.jpg'
+        imageUrl='./Nyali/IMG-20240504-WA0029.jpg'
       />
       </div>
     </main></>
