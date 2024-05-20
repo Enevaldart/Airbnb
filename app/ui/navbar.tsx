@@ -4,6 +4,7 @@ import "../globals.css";
 import React, { useState, useEffect } from 'react';
 import Image from "next/image";
 import MobileMenu from '@/app/ui/menu'; // Ensure the MobileMenu component is correctly imported
+import { RiSearch2Line } from "react-icons/ri";
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(true);
@@ -39,14 +40,26 @@ const Navbar = () => {
           src="/logo.jpg"
           alt="Vercel Logo"
           width={100}
-          height={24}
+          height={12}
           priority
-        />
-        <div className={`pc-menu ${showNav ? '' : 'hidden'}`}>
+        /><div>
+          <div className={`pc-menu search scrolled-menu ${showNav ? 'hidden' : ''}`} id="scrolled-menu">
+        <form>
+          <div class="scrol">
+            <RiSearch2Line />
+          </div>
+          <div>
+            <label>Where</label>
+            <input type="text" placeholder="Map area" />
+          </div>
+          <button type="submit"><RiSearch2Line /></button>
+        </form>
+      </div>
+        <div className={`pc-menu ${showNav ? '' : 'hidden'}`} id="pc-m">
           <a href="#" className="active">Stays</a>
           <a href="#">Experiences</a>
           <a href="#">Online Experiences</a>
-        </div>
+        </div></div>
         <div className="avatar">
           <a href="#">Airbnb your home</a>
           <MobileMenu />
@@ -54,7 +67,7 @@ const Navbar = () => {
       </div>
       <div className={`search ${showNav ? '' : 'hidden'}`} id="pc-search">
         <form>
-          <div>
+          <div class="where">
             <label>Where</label>
             <input type="text" placeholder="Map area" />
           </div>
@@ -73,21 +86,20 @@ const Navbar = () => {
             <label>Who</label>
             <input type="text" placeholder="Add guests" />
           </div>
-          <button type="submit">Search</button>
+          <button type="submit"><RiSearch2Line /></button>
         </form>
       </div>
-      <div className={`search ${showNav ? '' : ''}`} id="mobile">
+      
+      <div className={`pc-menu search mobile${showNav ? '' : ''}`} id="mobile-2">
         <form>
+          <div class="scrol">
+            <RiSearch2Line />
+          </div>
           <div>
             <label>Where</label>
             <input type="text" placeholder="Map area" />
           </div>
-          <hr />
-          <div>
-            <label>Who</label>
-            <input type="text" placeholder="Add guests" />
-          </div>
-          <button type="submit">Search</button>
+          <button type="submit"><RiSearch2Line /></button>
         </form>
       </div>
       <hr />
